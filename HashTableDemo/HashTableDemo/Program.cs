@@ -11,7 +11,7 @@ namespace HashTableDemo
         static void Main(string[] args)
         {
             Console.WriteLine(" hello all welcome to HashTable Problems");
-            string paragraph = "To be or not to be";
+            string paragraph = "Paranoids are not paranoid because they are paranoid but because they keep putting themselves deliberately into paranoid avoidable situations";
             CountWords(paragraph);
             Console.ReadLine();
         }
@@ -32,10 +32,9 @@ namespace HashTableDemo
             }
             Console.WriteLine("Display after Add operation");
             myMapNode.Display();
-            Console.ReadLine();
         }
+
+
+
     }
-   
-        
-    
 }
